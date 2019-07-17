@@ -212,6 +212,8 @@ In other words, we are using knowledge of a woman's race to *predict* if she is 
 
 `smoke ~ race`.
 
+We can read this as "smoke *by* race", which makes sense: we are trying to predict smoking status *by* our knowledge of race.
+
 And now for the contingency table. The `tally` command will, by default, put the response variable in the rows and the explanatory variable in the columns. We'll also add a new argument `margins = TRUE` to print the marginal distribution (the column totals).
 
 ```{r}
