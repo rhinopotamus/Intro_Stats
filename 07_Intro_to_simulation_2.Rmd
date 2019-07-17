@@ -14,7 +14,7 @@ output:
 
 <div class = "summary">
 ### Functions introduced in this module:
-`prop`, `diffprop`
+`prop`, `diffprop`, `shuffle`
 </div>
 
 
