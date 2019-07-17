@@ -258,7 +258,7 @@ For example:
 favstats(lwt ~ race, data = birthwt)
 ```
 
-The notation is a little weird. Don't worry about the tilde for now. Just learn that it needs to be there. This says, "Look at the numerical variable `lwt` grouped by `race`." Indeed, the output has three lines, one for each racial group in the data. This extended notation works for lots of commands, like `mean`, `sd`, `median`, `IQR`, `quantile`, etc. as long as the `mosaic` package is loaded.
+The notation is a little weird. The squiggly thing `~` is called a tilde; in R, it stands for the word "by" or "grouped by". So, this says, "Look at the numerical variable `lwt` grouped by `race`." Indeed, the output has three lines, one for each racial group in the data. This extended notation works for lots of commands, like `mean`, `sd`, `median`, `IQR`, `quantile`, etc. as long as the `mosaic` package is loaded.
 
 ##### Exercise 6
 
