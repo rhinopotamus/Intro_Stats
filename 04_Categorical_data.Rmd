@@ -83,7 +83,7 @@ If a variable is already coded as a factor variable in its data frame, it is imp
 
 ## Summarizing one categorical variable
 
-If you need to summarize a single categorical variable, a frequency table usually suffices. We'll use the `tally` command from the `mosaic` package to create all tables. Don't worry about the tilde (~) now. You'll learn about it later.
+If you need to summarize a single categorical variable, a frequency table usually suffices. We'll use the `tally` command from the `mosaic` package to create all tables. Just like in the previous module, the tilde (~) stands for the word "by". Let's tally our data by race:
 
 ```{r}
 tally(~ race, data = race_df)
