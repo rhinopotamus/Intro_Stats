@@ -423,7 +423,7 @@ ggplot(confint100, aes(x = estimate, y = .index,
 
 For each of the 100 simulated intervals, most of them (the black ones) do capture the true value of 0.64 (the blue vertical line). Occasionally they don't (the red ones). We expect 5 red intervals, but since randomness is involved, it won't necessarily be exactly 5. (Here there were only 2 bad intervals.)
 
-This is the key to interpreting confidence intervals. The "95%" in a 95% confidence interval means that if we were to collect many random samples, about 95% of them would contain the true population parameter and about 5% would not.
+This is the key to interpreting confidence intervals. The "95%" in a 95% confidence interval means that if we were to collect many random samples, and then make a confidence interval from each one, about 95% of those confidence intervals would contain the true population parameter and about 5% would not.
 
 So let's revisit the erroneous statements from the beginning of this section and correct the misconceptions.
 
